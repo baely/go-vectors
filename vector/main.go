@@ -61,7 +61,7 @@ func DotProduct(v1, v2 Vector) (int, error) {
 
 	newValue := 0
 
-	for i := 0; i < len(v1.values); i++ {
+	for i := range v1.values{
 		newValue += v1.values[i] * v2.values[i]
 	}
 
