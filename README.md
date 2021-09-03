@@ -1,0 +1,1 @@
+First Go project building basic Vector library
